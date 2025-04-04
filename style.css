@@ -6,8 +6,8 @@
   }
   /* Remove border-radius from the .image class */
 .header-content .left-header .image {
-  height: 90%;
-  width: 88%;
+  height: 40%;
+  width: 36%;
   margin-left: 4rem;
   background-color: var(--color-black);
   overflow: hidden; /* Ensure the image stays within the rounded corners */
