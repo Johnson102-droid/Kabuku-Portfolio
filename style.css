@@ -6,12 +6,28 @@
   }
   /* Remove border-radius from the .image class */
 .header-content .left-header .image {
-  height: 40%;
-  width: 36%;
+  height: 90%;
+  width: 88%;
   margin-left: 4rem;
   background-color: var(--color-black);
   overflow: hidden; /* Ensure the image stays within the rounded corners */
   transition: all 0.4s ease-in-out;
+}
+
+.right-header h2 {
+  font-size: 1.0rem; /* Smaller font for subtitle */
+  white-space: normal;
+  word-break: keep-all;  /* Prevent breaking in the middle of words */
+  margin-bottom: 1rem;
+}
+
+.right-header p {
+  font-size: 0.65rem;  
+  line-height: 1.6;
+  word-break: keep-all;  /* Prevent awkward word breaks */
+  overflow-wrap: break-word;
+  white-space: normal;
+  text-align: justify;
 }
 
 /* Add border-radius directly to the img tag */
